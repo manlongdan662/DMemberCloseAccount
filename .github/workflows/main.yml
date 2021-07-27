@@ -19,10 +19,6 @@ jobs:
          # 替换成需要同步的用户名，仓库名，分支名。
           source_repo: "https://github.com/yqchilde/JDMemberCloseAccount.git"
           source_branch: "main"
-          source_branch: "build"
-          source_branch: "dev"
           destination_branch: "master"
-          destination_branch: "build"
-          destination_branch: "dev"
           sync_tags: "true"
           github_token: ${{ secrets.PAT }}
